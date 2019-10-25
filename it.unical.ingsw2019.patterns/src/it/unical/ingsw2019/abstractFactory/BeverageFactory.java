@@ -1,5 +1,8 @@
 package it.unical.ingsw2019.abstractFactory;
 
+//Estendendo AbstractFactory posso generare oggetti di classe specifica in base al tipo fornito (Coffee or Beverage)
+
+
 public class BeverageFactory extends AbstractFactory {
 	
 	@Override

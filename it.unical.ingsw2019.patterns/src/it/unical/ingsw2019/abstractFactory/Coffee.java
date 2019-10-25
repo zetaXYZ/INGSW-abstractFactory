@@ -1,5 +1,7 @@
 package it.unical.ingsw2019.abstractFactory;
 
+//classe che implementa l'interfaccia Articles
+
 public class Coffee implements Articles{
 
 	@Override

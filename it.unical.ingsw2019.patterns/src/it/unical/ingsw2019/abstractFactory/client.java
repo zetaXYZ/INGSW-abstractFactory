@@ -1,12 +1,12 @@
 package it.unical.ingsw2019.abstractFactory;
 
+//al metodo makeProduct della classe MakeProduct passo la categoria per istradare la scelta verso il giusto sottoinsieme
 public class client {
 	
 	public static void main(String[] args) {
 		
 		int categoria = CategorySelection.getSelection();
 		MakeProduct.makeProduct(categoria);
-		
 	}
 }
 
